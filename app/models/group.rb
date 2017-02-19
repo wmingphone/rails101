@@ -1,3 +1,3 @@
-class Group < ActiveRecord::base
+class Group < ActiveRecord::Base
   validates :title, presence: true
 end
